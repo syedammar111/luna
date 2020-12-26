@@ -21,6 +21,14 @@ h1{
   /* font-family:fantasy; */
 }
 
+h3{
+  font-family: "Montserrat-bold";
+  font-weight: bold;
+}
+
+p{
+  color: #8f8f8f;
+}
 /* Navigation Bar */
 
 .navbar{
@@ -54,4 +62,25 @@ h1{
 .title-image{
   width: 60%;
   transform: rotate(25deg);
+}
+
+
+/* Features Section */
+
+#features{
+  padding: 7% 15%;
+}
+
+.feature-box{
+  text-align:center;
+  padding:5%;
+}
+
+.icon{
+  color:#ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color:#ff4c68;
 }
